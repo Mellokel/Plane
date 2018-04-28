@@ -12,27 +12,25 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    @IBOutlet weak var playButton: UIButton!
+    let scene = GameScene(size: CGSize(width: 1024, height: 768))
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            let scene = GameScene(size: CGSize(width: 1024, height: 768))
-                // Set the scale mode to scale to fit the window
-            scene.scaleMode = .aspectFill
-                
-                // Present the scene
-            view.presentScene(scene)
-            
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-            //view.showsPhysics = true
-        }
+        playButton.isHidden = true
+        
+        guard let view = self.view as? SKView else { return }
+        scene.scaleMode = .aspectFill
+        scene.playButton = playButton
+        
+        view.presentScene(scene)
+        
     }
-
+    @IBAction func playButtonAction(_ sender: UIButton) {
+        scene.gameIsPaused = false
+        
+    }
+    
     override var shouldAutorotate: Bool {
         return true
     }
@@ -43,11 +41,6 @@ class GameViewController: UIViewController {
         } else {
             return .all
         }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
     }
 
     override var prefersStatusBarHidden: Bool {

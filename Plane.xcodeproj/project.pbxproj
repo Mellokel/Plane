@@ -7,22 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8413444020947B9F00BB68B3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413443F20947B9F00BB68B3 /* Model.swift */; };
 		8418755C209241CB007A68DC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418755A209241CB007A68DC /* GameScene.swift */; };
 		8418756820924304007A68DC /* GameScenePhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418756620924303007A68DC /* GameScenePhysics.swift */; };
 		8418756920924304007A68DC /* GameSceneTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418756720924304007A68DC /* GameSceneTouches.swift */; };
+		84A1D7B820945F4000CC8655 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7A920945F3E00CC8655 /* playButton.png */; };
+		84A1D7B920945F4000CC8655 /* badFly1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7AA20945F3E00CC8655 /* badFly1.png */; };
+		84A1D7BA20945F4000CC8655 /* Fly2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7AB20945F3E00CC8655 /* Fly2.png */; };
+		84A1D7BB20945F4000CC8655 /* Shoot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7AC20945F3F00CC8655 /* Shoot1.png */; };
+		84A1D7BC20945F4000CC8655 /* Shoot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7AD20945F3F00CC8655 /* Shoot2.png */; };
+		84A1D7BD20945F4000CC8655 /* Dead.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7AE20945F3F00CC8655 /* Dead.png */; };
+		84A1D7BE20945F4000CC8655 /* badFly2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7AF20945F3F00CC8655 /* badFly2.png */; };
+		84A1D7C020945F4000CC8655 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7B120945F3F00CC8655 /* right.png */; };
+		84A1D7C120945F4000CC8655 /* Fly1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7B220945F3F00CC8655 /* Fly1.png */; };
+		84A1D7C220945F4000CC8655 /* Shoot5.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7B320945F3F00CC8655 /* Shoot5.png */; };
+		84A1D7C320945F4000CC8655 /* Shoot4.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7B420945F4000CC8655 /* Shoot4.png */; };
+		84A1D7C420945F4000CC8655 /* Bullet1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7B520945F4000CC8655 /* Bullet1.png */; };
+		84A1D7C520945F4000CC8655 /* Shoot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A1D7B620945F4000CC8655 /* Shoot3.png */; };
 		CFCEA8F620905DEF009EFBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCEA8F520905DEF009EFBC0 /* AppDelegate.swift */; };
 		CFCEA8FE20905DEF009EFBC0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCEA8FD20905DEF009EFBC0 /* GameViewController.swift */; };
 		CFCEA90120905DEF009EFBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCEA8FF20905DEF009EFBC0 /* Main.storyboard */; };
 		CFCEA90320905DEF009EFBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCEA90220905DEF009EFBC0 /* Assets.xcassets */; };
 		CFCEA90620905DEF009EFBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCEA90420905DEF009EFBC0 /* LaunchScreen.storyboard */; };
-		CFCEA91220906B01009EFBC0 /* Scene.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CFCEA91120906B01009EFBC0 /* Scene.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8413443F20947B9F00BB68B3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8418755A209241CB007A68DC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8418755B209241CB007A68DC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		8418756620924303007A68DC /* GameScenePhysics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScenePhysics.swift; sourceTree = "<group>"; };
 		8418756720924304007A68DC /* GameSceneTouches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneTouches.swift; sourceTree = "<group>"; };
+		84A1D7A920945F3E00CC8655 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		84A1D7AA20945F3E00CC8655 /* badFly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badFly1.png; sourceTree = "<group>"; };
+		84A1D7AB20945F3E00CC8655 /* Fly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fly2.png; sourceTree = "<group>"; };
+		84A1D7AC20945F3F00CC8655 /* Shoot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shoot1.png; sourceTree = "<group>"; };
+		84A1D7AD20945F3F00CC8655 /* Shoot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shoot2.png; sourceTree = "<group>"; };
+		84A1D7AE20945F3F00CC8655 /* Dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dead.png; sourceTree = "<group>"; };
+		84A1D7AF20945F3F00CC8655 /* badFly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badFly2.png; sourceTree = "<group>"; };
+		84A1D7B120945F3F00CC8655 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		84A1D7B220945F3F00CC8655 /* Fly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fly1.png; sourceTree = "<group>"; };
+		84A1D7B320945F3F00CC8655 /* Shoot5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shoot5.png; sourceTree = "<group>"; };
+		84A1D7B420945F4000CC8655 /* Shoot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shoot4.png; sourceTree = "<group>"; };
+		84A1D7B520945F4000CC8655 /* Bullet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bullet1.png; sourceTree = "<group>"; };
+		84A1D7B620945F4000CC8655 /* Shoot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shoot3.png; sourceTree = "<group>"; };
 		CFCEA8F220905DEF009EFBC0 /* Plane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCEA8F520905DEF009EFBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFCEA8FD20905DEF009EFBC0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -30,7 +57,6 @@
 		CFCEA90220905DEF009EFBC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFCEA90520905DEF009EFBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFCEA90720905DEF009EFBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFCEA91120906B01009EFBC0 /* Scene.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Scene.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +70,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841344412094922B00BB68B3 /* Shoot */ = {
+			isa = PBXGroup;
+			children = (
+				84A1D7AC20945F3F00CC8655 /* Shoot1.png */,
+				84A1D7AD20945F3F00CC8655 /* Shoot2.png */,
+				84A1D7B620945F4000CC8655 /* Shoot3.png */,
+				84A1D7B420945F4000CC8655 /* Shoot4.png */,
+				84A1D7B320945F3F00CC8655 /* Shoot5.png */,
+			);
+			path = Shoot;
+			sourceTree = "<group>";
+		};
+		841344422094924D00BB68B3 /* Bad */ = {
+			isa = PBXGroup;
+			children = (
+				84A1D7AA20945F3E00CC8655 /* badFly1.png */,
+				84A1D7AF20945F3F00CC8655 /* badFly2.png */,
+			);
+			path = Bad;
+			sourceTree = "<group>";
+		};
+		841344432094926F00BB68B3 /* Plane */ = {
+			isa = PBXGroup;
+			children = (
+				841344412094922B00BB68B3 /* Shoot */,
+				84A1D7AE20945F3F00CC8655 /* Dead.png */,
+				84A1D7B220945F3F00CC8655 /* Fly1.png */,
+				84A1D7AB20945F3E00CC8655 /* Fly2.png */,
+				84A1D7B520945F4000CC8655 /* Bullet1.png */,
+			);
+			path = Plane;
+			sourceTree = "<group>";
+		};
+		84134444209492E100BB68B3 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				84A1D7A920945F3E00CC8655 /* playButton.png */,
+				84A1D7B120945F3F00CC8655 /* right.png */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
 		84187561209242CA007A68DC /* GameSceneExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +119,16 @@
 				8418756720924304007A68DC /* GameSceneTouches.swift */,
 			);
 			path = GameSceneExtension;
+			sourceTree = "<group>";
+		};
+		84A1D7A720945F1B00CC8655 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84134444209492E100BB68B3 /* Interface */,
+				841344432094926F00BB68B3 /* Plane */,
+				841344422094924D00BB68B3 /* Bad */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		CFCEA8E920905DEE009EFBC0 = {
@@ -72,16 +150,17 @@
 		CFCEA8F420905DEF009EFBC0 /* Plane */ = {
 			isa = PBXGroup;
 			children = (
-				84187561209242CA007A68DC /* GameSceneExtension */,
 				8418755B209241CB007A68DC /* GameScene.sks */,
+				84A1D7A720945F1B00CC8655 /* Images */,
+				84187561209242CA007A68DC /* GameSceneExtension */,
 				8418755A209241CB007A68DC /* GameScene.swift */,
+				8413443F20947B9F00BB68B3 /* Model.swift */,
 				CFCEA8F520905DEF009EFBC0 /* AppDelegate.swift */,
 				CFCEA8FD20905DEF009EFBC0 /* GameViewController.swift */,
 				CFCEA8FF20905DEF009EFBC0 /* Main.storyboard */,
 				CFCEA90220905DEF009EFBC0 /* Assets.xcassets */,
 				CFCEA90420905DEF009EFBC0 /* LaunchScreen.storyboard */,
 				CFCEA90720905DEF009EFBC0 /* Info.plist */,
-				CFCEA91120906B01009EFBC0 /* Scene.atlas */,
 			);
 			path = Plane;
 			sourceTree = "<group>";
@@ -147,10 +226,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A1D7BA20945F4000CC8655 /* Fly2.png in Resources */,
+				84A1D7BE20945F4000CC8655 /* badFly2.png in Resources */,
+				84A1D7B820945F4000CC8655 /* playButton.png in Resources */,
+				84A1D7B920945F4000CC8655 /* badFly1.png in Resources */,
+				84A1D7C020945F4000CC8655 /* right.png in Resources */,
 				CFCEA90120905DEF009EFBC0 /* Main.storyboard in Resources */,
+				84A1D7BD20945F4000CC8655 /* Dead.png in Resources */,
 				CFCEA90320905DEF009EFBC0 /* Assets.xcassets in Resources */,
-				CFCEA91220906B01009EFBC0 /* Scene.atlas in Resources */,
+				84A1D7C320945F4000CC8655 /* Shoot4.png in Resources */,
+				84A1D7C520945F4000CC8655 /* Shoot3.png in Resources */,
 				CFCEA90620905DEF009EFBC0 /* LaunchScreen.storyboard in Resources */,
+				84A1D7C120945F4000CC8655 /* Fly1.png in Resources */,
+				84A1D7BC20945F4000CC8655 /* Shoot2.png in Resources */,
+				84A1D7C420945F4000CC8655 /* Bullet1.png in Resources */,
+				84A1D7BB20945F4000CC8655 /* Shoot1.png in Resources */,
+				84A1D7C220945F4000CC8655 /* Shoot5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +255,7 @@
 				8418756820924304007A68DC /* GameScenePhysics.swift in Sources */,
 				8418755C209241CB007A68DC /* GameScene.swift in Sources */,
 				CFCEA8FE20905DEF009EFBC0 /* GameViewController.swift in Sources */,
+				8413444020947B9F00BB68B3 /* Model.swift in Sources */,
 				8418756920924304007A68DC /* GameSceneTouches.swift in Sources */,
 				CFCEA8F620905DEF009EFBC0 /* AppDelegate.swift in Sources */,
 			);
@@ -304,7 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TSU-CSD.Plane";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -319,7 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TSU-CSD.Plane";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
