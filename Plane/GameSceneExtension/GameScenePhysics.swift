@@ -11,7 +11,7 @@ import SpriteKit
 
 extension GameScene {
     func didBegin(_ contact: SKPhysicsContact) {
-        guard plane.spriteNode.physicsBody?.isDynamic == true else { return }
+        
         if contact.bodyA.categoryBitMask == bulletBitMask && contact.bodyB.categoryBitMask == badPlaneBitMask || contact.bodyB.categoryBitMask == bulletBitMask && contact.bodyA.categoryBitMask == badPlaneBitMask {
             contact.bodyA.node?.removeFromParent()
             contact.bodyB.node?.removeFromParent()
@@ -26,7 +26,8 @@ extension GameScene {
             badPlaneNode?.removeFromParent()
             
             plane.spriteNode.removeAllActions()
-            plane.texture = SKTexture(imageNamed: "Dead.png")
+            
+            plane.spriteNode.texture = SKTexture(imageNamed: "Dead.png")
             plane.spriteNode.physicsBody?.affectedByGravity = true
             plane.spriteNode.physicsBody?.contactTestBitMask = 0
             DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1), execute: {

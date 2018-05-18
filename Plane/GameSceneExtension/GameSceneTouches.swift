@@ -18,10 +18,10 @@ extension GameScene {
             let location = touch.location(in: self)
             if arrowRight.objectNode.contains(location) && !gameIsPaused {
                 let planeShootAnimation = SKAction.animate(with: planeShootTextureArray, timePerFrame: 0.1)
-                let planeFlyAnimation = SKAction.animate(with: planeFlyTextureArray, timePerFrame: 0.1)
-                let planeFlyAnimationRepeat = SKAction.repeatForever(planeFlyAnimation)
+                //let planeFlyAnimation = SKAction.animate(with: planeFlyTextureArray, timePerFrame: 0.1)
+                //let planeFlyAnimationRepeat = SKAction.repeatForever(planeFlyAnimation)
                 
-                plane.spriteNode.run(SKAction.sequence([planeShootAnimation,planeFlyAnimationRepeat]))
+                plane.spriteNode.run(SKAction.sequence([planeShootAnimation]))
                 createBullet(position: CGPoint(x: plane.objectNode.position.x + self.size.width / 4 + 30, y: currentLocationY - 20))
                 continue
             }

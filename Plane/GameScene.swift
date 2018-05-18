@@ -126,7 +126,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let replaceBg = SKAction.moveBy(x: bg.texture.size().width, y: 0, duration: 0)
         let moveBgForever = SKAction.repeatForever(SKAction.sequence([moveBg,replaceBg]))
         
-        for i in 0...2 {
+        for i in 0...3 {
             bg.spriteNode = SKSpriteNode(texture: bg.texture)
             bg.spriteNode.position = CGPoint(x: size.width/4 + (bg.texture.size().width - 1) * CGFloat(i), y: size.height/2)
             bg.spriteNode.size.height = self.frame.height
